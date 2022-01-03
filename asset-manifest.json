@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-play/static/css/main.8f4ffeee.css",
+    "main.js": "/react-play/static/js/main.c8854c93.js",
+    "index.html": "/react-play/index.html",
+    "main.8f4ffeee.css.map": "/react-play/static/css/main.8f4ffeee.css.map",
+    "main.c8854c93.js.map": "/react-play/static/js/main.c8854c93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f4ffeee.css",
+    "static/js/main.c8854c93.js"
+  ]
+}
