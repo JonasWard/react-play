@@ -29,7 +29,8 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 
 header {
-   position: relative;
+   position: absolute;
+
    height: 5vh;
    width: 100%;
    
@@ -192,7 +193,7 @@ ul#nav li.current a { color: #fe6928; }
    /*position: absolute;*/
    /*top: 100vh;*/
    background: #0005c4;
-   margin-top: -50px;
+   margin-top: 0px;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -253,7 +254,7 @@ ul#nav li.current a { color: #fe6928; }
 /*#resume a:hover, #resume a:focus { color: #313131; }*/
 
 #resume h1 {
-   font-size: 3.5rem;
+   font-size: 4rem;
    font-weight: lighter;
 
    text-transform: uppercase;
@@ -270,7 +271,6 @@ ul#nav li.current a { color: #fe6928; }
    font-weight: bold;
 }
 
-#resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -468,7 +468,7 @@ bar-expand {
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
-   position: absolute;
+   /*position: absolute;*/
    left: 0;
    top: 0;
    width: 100%;
@@ -618,14 +618,14 @@ bar-expand {
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
-   /*font-family: 'FontAwesome';*/
-   /*content: "\f0ac";*/
-	/*padding-right: 10px;*/
-	/*font-size: 72px;*/
-   /*line-height: 72px;*/
-   /*text-align: left;*/
-   /*float: left;*/
-   /*color: #fff;*/
+   font-family: 'FontAwesome';
+   content: "\f0ac";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
 }
 #call-to-action .action {
    margin-top: 12px;

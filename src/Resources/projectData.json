@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "title": "Project 1",
+    "title-image": "a-title-image.jpg",
+    "introduction-text": "an-introduction-text",
+    "image-and-text": [
+      {
+        "id": 0,
+        "title": null,
+        "image": "a-image.jpg",
+        "image-description": null,
+        "text": "a bunch of random text!"
+      },{
+        "id": 1,
+        "title": null,
+        "image": "a-image.jpg",
+        "image-description": null,
+        "text": "a bunch of random text!"
+      }
+    ]
+  }
+]

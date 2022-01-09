@@ -19,7 +19,7 @@ const ETHF = (props) => {
 }
 
 const DKOF = (props) => {
-    return <img src={DKO} alt="DKO" style={{"-webkit-filter": "grayscale(100%);", filter: "grayscale(100%);", width: "auto", height: "8rem", align: "center"}}/>;
+    return <img src={DKO} alt="DKO" style={{WebkitFilter: "grayscale(100%)", filter: "grayscale(100%)", width: "auto", height: "8rem", align: "center"}}/>;
 }
 
 const TUMF = (props) => {
@@ -45,12 +45,12 @@ class Resume extends Component {
                         {work.title}
                         <span>&bull;</span> <em className="date">{work.years}</em>
                     </p>
-                    <p style={{color:"#ddd", "text-align": "justify"}}>{work.description}</p>
+                    <p>{work.description}</p>
                 </div>
             );
         });
 
-        console.log("nothing changed or what ????");
+        console.log(window.innerWidth);
 
         const skillmessage = this.props.data.skillmessage;
         const education = this.props.data.education.map(function (education) {
@@ -61,10 +61,12 @@ class Resume extends Component {
                         {education.degree} <span>&bull;</span>
                         <em className="date">{education.graduated}</em>
                     </p>
-                    <p style={{color:"#ddd", "text-align": "justify"}}>{education.description}</p>
+                    <p style={{color:"#ddd", textAlign: "justify"}}>{education.description}</p>
                 </div>
             );
         });
+
+        const width = window.innerWidth;
 
         return (
             <section id="resume">
@@ -72,7 +74,7 @@ class Resume extends Component {
                 <Slide left duration={1300}>
                     <div className="row work">
                         <div className="three columns header-col">
-                            <h1 style={{color:"#000"}}>
+                            <h1>
                                 <span>Work</span>
                             </h1>
                         </div>

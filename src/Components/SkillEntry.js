@@ -19,8 +19,8 @@ class SkillEntry extends Component {
         this.state.hasSubSkills = (this.props.data.skill.subSkills !== undefined);
 
         if (!this.state.hasSubSkills) {
-            console.log("doesn't have subskill");
-            console.log(this.state.skill);
+            // console.log("doesn't have subskill");
+            // console.log(this.state.skill);
 
             return (
                 <div>
@@ -44,18 +44,20 @@ class SkillEntry extends Component {
             );
 
         } else if (this.state.visible) {
-            console.log("does have subskill and visible");
-            console.log(this.state.skill);
+            // console.log("does have subskill and visible");
+            // console.log(this.state.skill);
 
             return (
-                <div>
+                <div
+                    onTouchStart={() => this.setState({visible: !this.state.visible})}
+                >
                     <span className="bar-expand">
                         <span className="skill-level">
                             <div
                                 style={{width: "100%", background: "#313131"}}
                                 onMouseEnter={() => this.setState({visible: true})}
                                 onMouseLeave={() => this.setState({visible: false})}
-                                onTouchStart={() => this.setState({visible: !this.state.visible})}
+                                // onTouchStart={() => this.setState({visible: !this.state.visible})}
                                 // onTouchStart={() => this.setState({visible: true})}
                                 // onTouchEnd={() => this.setState({visible: false})}
                             >
@@ -76,20 +78,19 @@ class SkillEntry extends Component {
                 </div>
             );
         } else {
-            console.log("does have subskill and invisible");
-            console.log(this.state.skill);
+            // console.log("does have subskill and invisible");
+            // console.log(this.state.skill);
 
             return (
-                <div>
-
+                <div
+                    onTouchStart={() => this.setState({visible: !this.state.visible})}
+                >
                     <span className="bar-expand">
                         <span className="skill-level">
                             <div
                                 style={{width: "100%", background: "#313131", height: "100%"}}
-                                // style={{width: "100%", background: "#313131"}}
                                 onMouseEnter={() => this.setState({visible: true})}
                                 onMouseLeave={() => this.setState({visible: false})}
-                                onTouchStart={() => this.setState({visible: !this.state.visible})}
                                 // onTouchEnd={() => this.setState({visible: false})}
                             >
                                 <span

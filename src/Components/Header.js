@@ -19,7 +19,7 @@ class Header extends Component {
                         Hide navigation
                     </a>
 
-                    <ul id="nav" style={{"text-shadow": "0 0 1px #000000, 0 0 10px #000000"}} className="nav">
+                    <ul id="nav" style={{textShadow: "0 0 1px #000000, 0 0 10px #000000"}} className="nav">
                         <li className="current">
                             <a className="smoothscroll" href="#home">
                                 Home

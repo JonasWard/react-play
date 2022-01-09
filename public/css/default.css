@@ -149,10 +149,14 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	color: #cecece;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
+}
+
+body p {
+    text-align: justify;
 }
 
 /*  2. Typography
@@ -163,6 +167,7 @@ h1, h2, h3, h4, h5, h6 {
    color: #fff;
 	font-family: 'Helvetica Neue', 'Helvetica', 'Montserrat', sans-serif;
    font-weight: normal;
+    text-align: left;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
