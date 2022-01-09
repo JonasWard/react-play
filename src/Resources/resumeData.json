@@ -2,14 +2,14 @@
   "english": {
     "main": {
       "name": "Jonas Ward",
-      "description": "I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-      "image": "profilepic.jpg",
-      "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+      "description": "Jonas Ward is an explorer of patterns, both conceptually and aesthetically",
+      "image": "jonas-ward-profile-picture.jpg",
+      "bio": " Jonas Ward is an explorer of patterns, both conceptually and aesthetically. His work primarily deals with generating analysis and design tools using ongoing developments in the realm of computer science and additive manufacturing, to help us find purpose and solutions for “the baggage of the past”. Because of the strong focus on contextualisation ecology, history and cultural heritage are often recurring themes. Design is not only creating but also re-using. Because of this Jonas also works with UGD on developing various analysis tools finding the qualities in the built environment and on generative design tools to find solutions to improve existing deficits with minimal effort.",
       "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
       "email": "jonas.vandenbulcke@gmail.com",
       "phone": "+41 76 232 76 27",
       "github": "https://github.com/JonasWard",
-      "project": "https://github.com/nordicgiant2/react-nice-resume",
+      "project": "",
       "address": {
         "street": "Rotbuchstrasse 34",
         "city": "Zürich",
@@ -51,7 +51,7 @@
       "education": [
         {
           "id": 5,
-          "logo": "ETH.svg",
+          "logo": "ETH",
           "school": "ETH Zürich",
           "degree": "MAS Digital Fabrication",
           "graduated": "September 2018",
@@ -59,28 +59,28 @@
         },{
           "id": 4,
           "school": "Beaux-Arts Gent",
-          "logo": "DKO.jpg",
+          "logo": "DKO",
           "degree": "Bachelor Sculptural Ceramics",
           "graduated": "September 2019",
           "description": "Exchange year at the TUM in München"
         },{
           "id": 3,
           "school": "TUMünchen",
-          "logo": "TUM.svg",
+          "logo": "TUM",
           "degree": "Master of Science in Architecture: Urban Planning",
           "graduated": "February 2016",
           "description": "Exchange year at the TUM in München"
         },{
           "id": 2,
           "school": "UGent",
-          "logo": "UGENT.svg",
+          "logo": "UGENT",
           "degree": "Master of Science in Engineering: Architecture - Urban Design",
           "graduated": "September 2017",
           "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
         },{
           "id": 1,
           "school": "UGent",
-          "logo": "UGENT.svg",
+          "logo": "UGENT",
           "degree": "Bachelor of Science in Engineering: Architecture",
           "graduated": "September 2015",
           "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
@@ -88,19 +88,26 @@
       ],
       "work": [
         {
-          "id": 7,
+          "id": 8,
           "company": "User Generated Design gmbh",
           "location": "Konstanz, Germany",
           "title": "POC, Full-Stack Developer",
           "years": "March 2020 - Present",
           "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
         },{
-          "id": 6,
+          "id": 7,
           "company": "rrreefs",
           "location": "Zürich, Switzerland",
           "title": "Design and Fabrication Workflow Development",
           "years": "September 2019 - Present",
           "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        },{
+          "id": 6,
+          "company": "HTWG Konstanz",
+          "location": "Konstanz, Germany",
+          "title": "Lecturer - The Nature of the Artificial",
+          "years": "February 2021 - September 2021",
+          "description": "Master course introducing Generative Design with scripting python in Grasshopper and Google Collab"
         },{
           "id": 5,
           "company": "Archilyse AG",
@@ -119,7 +126,7 @@
           "id": 3,
           "company": "B-architecten",
           "location": "Antwerpen, Belgium",
-          "title": "Junior Archtict",
+          "title": "Junior Architect",
           "years": "May 2017 - August 2019",
           "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
         },{
@@ -140,10 +147,14 @@
       ],
       "skills": [
         {
-          "name": "Python - POC, GIS & ML",
+          "name": "POC, GIS & ML",
           "level": "100%",
+          "color": "#ffffff",
           "subSkills": [
             {
+              "name": "Python",
+              "level": "100%"
+            },{
               "name": "RhinoPython",
               "level": "95%"
             },{
@@ -160,7 +171,10 @@
               "name": "Tensorflow",
               "level": "75%"
             },{
-              "name": "NumPy & Pandas",
+              "name": "NumPy",
+              "level": "70%"
+            },{
+              "name": "Pandas",
               "level": "70%"
             },{
               "name": "Flask",
@@ -168,18 +182,25 @@
             }
           ]
         },{
-          "name": "JavaScript - Front End",
+          "name": "Front End",
           "level": "85%",
+          "color": "#ffffff",
           "subSkills": [
             {
+              "name": "JavaScript",
+              "level": "100%"
+            },{
               "name": "ThreeJS",
-              "level": "80%"
+              "level": "85%"
             },{
               "name": "JSTS",
               "level": "70%"
             },{
+              "name": "GLSL",
+              "level": "75%"
+            },{
               "name": "ReactJs",
-              "level": "60%"
+              "level": "70%"
             },{
               "name": "CSS",
               "level": "55%"
@@ -189,12 +210,16 @@
             }
           ]
         },{
-          "name": "C# - Geometry & Game Engines",
-          "level": "70%",
+          "name": "DotNet",
+          "level": "65%",
+          "color": "#ffffff",
           "subSkills": [
             {
-              "name": "RhinoCommon",
+              "name": "C#",
               "level": "80%"
+            },{
+              "name": "RhinoCommon",
+              "level": "90%"
             },
             {
               "name": "Unity",
@@ -202,10 +227,14 @@
             }
           ]
         },{
-          "name": "Java - Back End",
+          "name": "Back End",
           "level": "60%",
+          "color": "#ffffff",
           "subSkills": [
             {
+              "name": "JAVA",
+              "level": "70%"
+            },{
               "name": "JTS",
               "level": "80%"
             },{
@@ -214,6 +243,9 @@
             },{
               "name": "JUnit",
               "level": "40%"
+            },{
+              "name": "Flask",
+              "level": "60%"
             }
           ]
         }
