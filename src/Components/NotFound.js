@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from "./Header";
 
-export const ProjectOverview = () => {
+export const NotFound = () => {
     return (
         <div>
             <Header/>
-            I am the ProjectOverview
+            <p>This page does not exist!</p>
         </div>
     )
 };
