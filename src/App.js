@@ -42,7 +42,7 @@ class App extends Component {
 
     render() {
         return (
-            <HashRouter>
+            <HashRouter basename="/react-play">
                 <div className="App">
                     <Header data={this.state.resumeData.main}/>
                     <Opening data={this.state.resumeData.main}/>
