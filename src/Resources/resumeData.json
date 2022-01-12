@@ -17,7 +17,8 @@
         "zip": "CH-8037"
       },
       "website": "jonasward.ch",
-      "resumedownload": "http://timbakerdev.com",
+      "resumedownload": "../others/CV.v8.pdf",
+      "portfoliodownload": "https://tinyurl.com/jonaswardfullportfolio",
       "social": [
         {
           "name": "facebook",
@@ -93,42 +94,35 @@
           "location": "Konstanz, Germany",
           "title": "POC, Full-Stack Developer",
           "years": "March 2020 - Present",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "description": "Variety of projects in equally many languages and frameworks both back-end, front-end and dedicated plugins ranging from POCs to maintaining existing projects. Currently working on a PWA on helping private clients restyle their house using just their smartphone."
         },{
           "id": 7,
           "company": "rrreefs",
           "location": "Zürich, Switzerland",
           "title": "Design and Fabrication Workflow Development",
           "years": "September 2019 - Present",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "description": "As is common knowledge at this point, coral reefs are dying all over the world at an unprecedented rate. Rrreefs is a Zürich based NGO & ETH spin-off that tries to tackle this issue with an artistic design language grounded in scientifically sound research. Founded by two ETH-alumni’s, Marie Griesmar (GKR artist in residency on artificial reef structures) & Ulrike Pfreudt (post-doc on flow control for coral growth) it was louded the last year with multiple prizes (SEIF Award, Zurich Deutschland Planet-Hero, Hochparterre Goldenen Hase) and has an ever growing number of collaborators all over the world. I have been involved with rrreefs from the start and have been working on fleshing out design and fabrication strategies of the original bricks while also constantly looking for new avenues and materials."
         },{
           "id": 6,
           "company": "HTWG Konstanz",
           "location": "Konstanz, Germany",
           "title": "Lecturer - The Nature of the Artificial",
           "years": "February 2021 - September 2021",
-          "description": "Master course introducing Generative Design with scripting python in Grasshopper and Google Collab"
+          "description": "Advanced Grasshopper course aimed at Master students at the HTWG Konstanz introducing Generative Design strategies, basics of optimization and problem solving using basic machine learning models using python both in Grasshopper and Google Collab"
         },{
           "id": 5,
           "company": "Archilyse AG",
           "location": "Zürich, Switzerland",
           "title": "POC Developer, QA",
           "years": "October 2019 - March 2020",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-        },{
-          "id": 4,
-          "company": "Jonas Ward",
-          "location": "Gent, Belgium",
-          "title": "Lamp Designs",
-          "years": "December 2018 - January 2020",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "description": "Proptech KPI & Digitization - Building POCs for solving topological issues in mesh divisions with shapely, IFC handling using ifcopenshell, QA and testing with iPython."
         },{
           "id": 3,
-          "company": "B-architecten",
+          "company": "B-architecten nv",
           "location": "Antwerpen, Belgium",
           "title": "Junior Architect",
           "years": "May 2017 - August 2019",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "description": "Multiple projects and competitions ranging from renovations of houses, schools, offices and even a church to masterplanning of highrise construction in the wider Antwerp area."
         },{
           "id": 2,
           "company": "Jonas Ward",

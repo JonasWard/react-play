@@ -8,11 +8,9 @@ import {ProjectOverview} from "./Components/ProjectOverview";
 import {NotFound} from "./Components/NotFound";
 
 ReactDOM.render(
-    <BrowserRouter basename={"/react-play/"}>
+    <BrowserRouter basename={"react-play/"}>
         <Routes>
-            <Route path="projects" element={<ProjectOverview/>}/>
-            <Route exact path="" element={<App/>}/>
-            <Route exact path="404" element={<NotFound/>}/>
+            <Route path="" element={<App/>}/>
         </Routes>
     </BrowserRouter>,
     document.getElementById('root')
