@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-play/static/css/main.fc2651ed.css",
-    "main.js": "/react-play/static/js/main.ac7fbae9.js",
+    "main.js": "/react-play/static/js/main.f62f1629.js",
     "static/js/787.34edacc8.chunk.js": "/react-play/static/js/787.34edacc8.chunk.js",
     "static/media/DKO.png": "/react-play/static/media/DKO.291660864b87d8c46277.png",
     "static/media/jonas-ward-logo-wb.svg": "/react-play/static/media/jonas-ward-logo-wb.9c87f6b1ef4967e3bdefb79c5fc54d94.svg",
     "static/media/UGENT.png": "/react-play/static/media/UGENT.a4167c556a54d0f21744.png",
     "static/media/ETH.svg": "/react-play/static/media/ETH.a3c59cab5ea5ce05805bc9fccc2af12f.svg",
     "index.html": "/react-play/index.html",
-    "main.ac7fbae9.js.map": "/react-play/static/js/main.ac7fbae9.js.map",
+    "main.f62f1629.js.map": "/react-play/static/js/main.f62f1629.js.map",
     "787.34edacc8.chunk.js.map": "/react-play/static/js/787.34edacc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc2651ed.css",
-    "static/js/main.ac7fbae9.js"
+    "static/js/main.f62f1629.js"
   ]
 }
